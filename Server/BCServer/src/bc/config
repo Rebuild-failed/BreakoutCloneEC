@@ -1,0 +1,10 @@
+include "config.path"
+
+thread = 1
+logger = nil
+logpath = "."
+harbor = 0
+start = "main"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
+cpath = root.."cservice/?.so"
+
