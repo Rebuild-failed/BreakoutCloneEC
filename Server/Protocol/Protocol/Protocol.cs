@@ -8,7 +8,16 @@ namespace Protocol
 {
     public class Protocol
     {
-        public const int MATCH_START = 1000;
-        public const int MATCH_SUCCEED = 1001;
+        public enum MATCH
+        {
+            MATCH_START = 1000,
+            MATCH_SUCCEED = 1001,
+        }
+        public enum Game
+        {
+            GAME_READY =2001,
+            GAME_START =2002,
+            GAME_OVER =2003,
+        }
     }
 }
