@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-message SignalMessage {
- 	int32 mCode=1;
- 	int32 sCode=2;
-}
